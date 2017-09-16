@@ -1,0 +1,27 @@
+{
+  "name": "callback-middleware",
+  "version": "1.0.0",
+  "description": "Generic middleware based on continuation passing style callbacks.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib --ignore **.test.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "callback",
+    "middleware",
+    "continuation-passing-style",
+    "CPS"
+  ],
+  "author": "atilaromero@gmail.com",
+  "repository": "atilaromero/callback-middleware",
+  "license": "MIT",
+  "devDependencies": {
+    "debug": "^3.0.1",
+    "jest": "^21.1.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
